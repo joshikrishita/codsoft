@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6c69449e21.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>FitHub</title>
 </head>
 <body>
     <div class="container">
         <header>
-            <div class="header">
+            <div class="header" id="home">
                 <div class="logo">
                     <img src="logo.png" alt="logo"/>
                 </div>
                 <div class="nav">
                    <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">PROGRAMS</a></li>
-                    <li><a href="#">PRICEING</a></li>
-                    <li><a href="#">CONTACTS</a></li>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#programs">PROGRAMS</a></li>
+                    <li><a href="#priceing">PRICEING</a></li>
+                    <li><a href="#contact">CONTACTS</a></li>
                    </ul>
                 </div>
                 <div class="button">
@@ -48,7 +49,7 @@
         </div>
         </main>
         <section>
-            <div class="facilities">
+            <div class="facilities" id="about">
                 <div class="heading">
                     <h1>Facilities</h1>
                 </div>
@@ -77,7 +78,7 @@
                     </div>
                 </div>
             </div>
-            <div class="batch">
+            <div class="batch" id="programs">
                 <div class="heading">
                     <h1>Our Batches</h1>
                 </div>
@@ -116,7 +117,7 @@
                     </div>
                 </div>
             </div>
-            <div class="priceing">
+            <div class="priceing" id="priceing">
                 <div class="heading">
                     <h1>Our Priceing</h1>
                 </div>
@@ -128,33 +129,77 @@
                         <th>Single</th>
                       </tr>
                       <tr>
-                        <td>Month</td>
-                        <td></td>
-                        <td></td>
+                        <td>Monthly</td>
+                        <td>********</td>
+                        <td>1200/-</td>
                       </tr>
                       <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td>Quarterly</td>
+                        <td>4000/-</td>
+                        <td>2800/-</td>
                       </tr>
                       <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td>Half Yearly</td>
+                        <td>7200/-</td>
+                        <td>5000/-</td>
                       </tr>
                       <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td>Yearly</td>
+                        <td>14400/-</td>
+                        <td>8000/-</td>
                       </tr>
                     </table>
                 </div>
             </div>
         </section>
         <footer>
-            <div class="footer">
-                <div class="form"></div>
-                <div class="contact"></div>
+            <div class="footer" id="contact">
+                <div class="heading">
+                    <h2>Contact Us</h2>
+                </div>
+                <div class="elemets">
+                    <div class="form">
+                        <form action="">
+                            <!-- name,email,no,gender,city -->
+                             
+                             <input type="text" id="text"  class ="input" placeholder="Enter your Name"><br>
+                             <input type="email" id="email" class ="input" placeholder="Enter your Email ID"><br>
+                             <input type="tel" id="phone" name="phone" placeholder="Enter Phone No." pattern="[0-10]{5}-[0-10]{5}" required style="font-size: 19px; margin: 10px;"><br>
+                             <input type="radio" value="Female" id="Female" style="font-size: 20px; margin: 10px;">
+                             <label for="Female">Female</label>
+                             <input type="radio" value="male" id="male" style="font-size: 20px; margin: 12px;">
+                             <label for="male">Male</label>
+                             <input type="radio" value="other" id="other" style="font-size: 20px; margin: 12px;">
+                             <label for="other">Others</label><br>
+                             <label for="cities" style="font-size: 25px; margin: 20px; margin-top: 20px;">Choose your City</label>
+                             <select id="cities" name="cities" style="font-size: large; margin: 15px;">
+                               <option value="Gandhinagar">Gandhinagar</option>
+                               <option value="mumbai">Mumbai</option>
+                               <option value="bangalore">Bengaluru</option>
+                               <option value="surat">Surat</option>
+                             </select><br>
+                             <button style="margin-left: 250px;"><b>Submit</b></button>
+                        </form>
+                    </div>
+                    <div class="contact">
+                        <span > 
+                            <i class="fa-brands fa-square-instagram fa-xl" style="color: #db1a77;"> </i> 
+                            <p>Fithub@1804</p>
+                        </span>
+                       <br>
+                        <span> 
+                            <i class="fa-brands fa-linkedin fa-xl" style="color: #163c7e;"></i>
+                            <p>FitHub1804</p>
+                        </span> <br>
+                        
+                        <span>
+                        <i class="fa-solid fa-phone fa-xl" style="color: #1bde8a;"></i>
+                        <p>91+01234-56789</p>
+                       </span><br>
+                        
+                    </div>
+                </div>
+                
             </div>
             
         </footer>
