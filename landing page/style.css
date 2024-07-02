@@ -1,0 +1,214 @@
+*{
+    margin:0px;
+    padding:0px;
+   
+}
+.container{
+    background-color:#171a1f;   
+}
+.header{
+    
+    display:flex;
+    justify-content:space-between;
+    padding:20px; 
+    height:50px;
+}
+.logo>img{
+    margin-top:-32px;
+    width: 172px;
+    height: 117px;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    
+    width:600px;
+    
+}
+.nav ul li,a{
+    position:relative;
+    list-style: none;
+    text-decoration: none;
+    color:#9ba19c;
+    margin-top:12px;
+    font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size:12px;
+}
+.nav ul li,a:hover{
+    color:#80ed99;
+}
+/* li a:after {
+    content: "";
+     position: absolute; 
+    background-color: rgb(38, 233, 217);
+    height: 2px;
+    width: 0%;
+    transform: translateX(-50%); 
+    left: 50%;
+    bottom: -5px;
+    transition: .35s ease;
+
+} */
+/* li a:hover:after {
+    width: 100%;
+} */
+.button>button{
+    font-size: 14px;
+    width:100px;
+    height:37px;
+    margin-top:10px;
+    background-color: #80ed99;
+    color:#043541;
+    border: none;
+   border-radius: 30px;
+
+}  
+
+#join{
+    color:#0b6477;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top:150px;
+}  
+.main .image>img{
+    width:550px;
+    height:550px;
+    margin-top:-150px;
+}
+.para{
+   color:#80ed99;
+   font-size: 17px;
+   margin-bottom:10px;
+   margin-left:10px;
+   letter-spacing: 0.5px;
+}
+.writing h1{
+    color:beige;
+    font-size: 55px;
+    margin-bottom:15px;
+    letter-spacing: 0.5px;
+}
+.para2{
+    color:#9ba19cdc;
+}
+.buttons button{
+   margin-top:30px;
+   margin-left:10px;
+   height:40px;
+   width:110px;
+   font-size: medium;
+   color:beige;
+   background-color:transparent;
+   border:3px solid aqua;
+   border-radius: 30px;
+}
+.buttons button:hover{
+    background-color: #80ed99;
+    color:#0b6477;
+    box-shadow: 0px 0px 2px #80ed99;
+    border: none;
+}
+.facilities{
+    margin-top:-20px;
+    margin-bottom:30px;
+}
+.heading{
+    text-align: center;
+    margin-bottom:50px;
+    color:beige;
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+    letter-spacing: 0.5px;
+}
+.cards{
+    display:flex;
+    justify-content: space-around;
+}
+#crd{
+    border-radius: 10px;
+    width:300px;
+    height:500px;
+    box-shadow: 0px 0px 5px white;
+   
+}
+#crd:hover{
+    transition:0.5s ease-in-out;
+    transform: scale(1.1);
+}
+#crd .notes{
+    margin-top:385px;
+    color:#eaebec;
+    background-color: #171a1fa1;
+    padding:5px;
+}
+.card1{
+    background-image: url('gymequip.jpg');
+}
+.card2{
+    background-image: url('spacious.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.card3{
+    background-image: url('personal.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.batch .heading{
+    margin-top:70px;
+   
+}
+.batches{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap:30px;
+    margin-left: 160px;
+    margin-bottom:30px;
+    
+}
+#bch{
+    border:none;
+    border-radius: 10px;
+    text-align: center;
+    width:400px;
+    height:350px;
+    box-shadow: 0px 0px 5px white;
+}
+#bch .info{
+    margin-top:285px;
+    color:#eaebec;
+    background-color: #171a1fa1;
+}
+.batch1{
+    background-image: url('m&wexe.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+}
+.batch2{
+    background-image: url('wexer.jpeg');
+    background-size: 100% 100%;
+    background-position: center;
+    margin-left:-70px;
+}
+.batch3{
+    background-image: url('kexe.jpeg');
+    background-size: 100% 100%;
+    background-position: center;
+    
+}
+.batch4{
+    background-image: url('mexe.jpeg');
+    background-size: 100% 100%;
+    background-position: center;
+    margin-left:-70px;
+}
