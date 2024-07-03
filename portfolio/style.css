@@ -23,10 +23,10 @@ header{
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  font-size:x-large;
+  font-size:large;
  }
  .nav-link{
-    color:#f3dfe9;
+    color:grey;
     text-decoration: none;
     position:relative;
 }
@@ -38,16 +38,60 @@ header{
     width: 0%;
     transform: translateX(-50%); 
     left: 50%;
-    bottom: -1px;
+    bottom: 7px;
     transition: .35s ease;
 
 } 
  .ul{
     margin-right:100px;
  }
+ 
  .nav-link:hover:after{
-   width:100%;
+   width:60%;
  }
  .nav-link:hover{
     color:#00B4D8;
  }
+ .writing>p{
+    color:grey;
+    letter-spacing: 0.5px;
+ }
+ .mt{
+    margin-top:15rem;
+ }
+ .img{
+    box-shadow: 0px 0px 25px #34ddff;
+    border-radius: 50%;
+    transition: 1s ease-in-out;
+ }
+ .img:hover{
+    box-shadow: 0px 0px 40px #21d0f3;
+    transform: scale(1.5);
+}
+.button{
+    width:90px;
+    height:30px;
+    margin-top:10px;
+    margin-left:16px;
+    border:none;
+    background-color:transparent;
+    border:2px solid #00B4D8;
+    border-radius: 20px;
+    color: #00B4D8;
+    font-size: 16px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0px 0px 5px #00B4D8;
+    
+}
+.writing>.active{
+    box-shadow: 0px 0px 20px #00B4D8;
+    transform: scale(1.1);
+    color:black;
+    background-color: #00B4D8;
+}
+.button:hover{
+    box-shadow: 0px 0px 20px #00B4D8;
+    transform: scale(1.1);
+    color:black;
+    background-color: #00B4D8;
+}
