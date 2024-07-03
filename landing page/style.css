@@ -1,10 +1,13 @@
 *{
-    margin:0px;
-    padding:0px;
-   
+    margin:0;
+    padding:0;
+}
+body{
+    width:100%;
 }
 .container{
     background-color:#171a1f;   
+   
 }
 .header{
     
@@ -15,14 +18,14 @@
 }
 .logo>img{
     margin-top:-32px;
-    width: 172px;
+    width: 10rem;
     height: 117px;
 }
 .nav ul{
     display: flex;
     justify-content: space-between;
     
-    width:600px;
+    width:30rem;
     
 }
 .nav ul li,a{
@@ -144,7 +147,7 @@
     transform: scale(1.1);
 }
 #crd .notes{
-    margin-top:385px;
+    margin-top:21rem;
     color:#eaebec;
     background-color: #171a1fa1;
     padding:5px;
@@ -172,7 +175,7 @@
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
     gap:30px;
-    margin-left: 380px;
+    margin-left: 10rem;
     margin-bottom:80px;
     
 }
@@ -185,7 +188,7 @@
     box-shadow: 0px 0px 5px white;
 }
 #bch .info{
-    margin-top:285px;
+    margin-top:15rem;
     color:#eaebec;
     background-color: #171a1fa1;
 }
@@ -253,7 +256,7 @@ th,td{
     font-size: x-large;
     padding-bottom:70px;
    
-    margin-left:250px;
+    margin-left:5rem;
     
 }
 .form{
@@ -296,6 +299,7 @@ form>button{
 }
 .contact{
     width:500px;
+   
     
 }
 i{
