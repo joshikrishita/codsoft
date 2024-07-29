@@ -1,0 +1,98 @@
+:root{
+    --main-bg-color:#213a57;
+    --main-color:#45dfb1;
+    --secondary-bg-color:#80ed99;
+    --secondary-color:#020329;
+
+}
+#achivements{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.achieveTitle{
+     font-size:3rem;
+     font-weight: 600;
+     padding-top:3rem;
+     margin-bottom: 1.5rem;
+     color:white;
+     margin-top:-2rem;
+}
+.achieveDescription{
+    font-size:0.9rem;
+    font-weight:600;
+    padding:0 2rem;
+    max-width: 50rem;
+    color:rgb(224, 224, 198);
+
+}
+.certiBoxes{
+    margin:1.5rem;
+    width:100vw;
+    max-width:80%;
+    text-align: left;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1rem;
+}
+#img{
+    transition:0.5sec ease;
+   
+    
+    
+}
+#img:hover{
+   transform: scale(1.4);
+}
+.certiBox{
+    display:flex;
+    align-items: center;
+    margin:1rem;
+    padding:1.5rem 2rem;
+    border-radius: 0.5rem;
+    background-color: var(--main-bg-color);
+}
+.certiImg{
+    object-fit: cover;
+    height: 5rem;
+    width:5rem;
+    margin-right: 2rem;
+}
+.certiImg:hover{
+  height:100vh;
+  width:100vw;
+  
+}
+.certiTxt>h2{
+    color:wheat;
+}
+.certiTxt p{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+@media screen and (max-width:720px) {
+    .certiTxt>p{
+        font-size: 2vw;
+    }
+    .certiBoxes{
+        display: flex;
+        flex-direction: column;
+    
+    }
+}
+@media  screen and (max-width:480px) {
+    .certiTxt>p{
+        font-size: 3vw;
+    }
+    
+    .certiTxt>h2{
+        font-size: 5vw;
+    }
+    
+}

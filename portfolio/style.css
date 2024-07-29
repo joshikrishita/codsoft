@@ -1,130 +1,14 @@
-/* *{
+*{
     margin:0;
     padding:0;
-}
-.container{
-    background-color: rgb(10, 10, 10);
-    width:100svw;
-    
-}
-header{
-    width:80%;
-}
-.logo>img{
-    width:300px;
-    height:30px;
-} */
-
-/* li a:hover:after {
-    width: 100%;
-}
- */
-
- .font{
-    font-family: "Cormorant", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-  font-size:large;
- }
- .nav-link{
-    color:grey;
+    box-sizing: border-box;
     text-decoration: none;
-    position:relative;
+    background: transparent;
+    font-family: "Poppins", sans-serif;
 }
-.nav-link:after {
-    content: "";
-     position: absolute; 
-    background-color: #00B4D8;
-    height: 2px;
-    width: 0%;
-    transform: translateX(-50%); 
-    left: 50%;
-    bottom: 7px;
-    transition: .35s ease;
-
-} 
-.navbar{
-   background-color: black;
-}
- .ul{
-    margin-right:100px;
- }
- 
- .nav-link:hover:after{
-   width:60%;
- }
- .nav-link:hover{
-    color:#00B4D8;
- }
- .writing>p{
+body{
+    background-color: #020329;
     color:grey;
-    letter-spacing: 0.5px;
- }
- .mt{
-    margin-top:16rem;
- }
- .img{
-    box-shadow: 0px 0px 25px #34ddff;
-    border-radius: 50%;
-    transition: 1s ease-in-out;
- }
- .img:hover{
-    box-shadow: 0px 0px 40px #21d0f3;
-    transform: scale(1.1);
-}
-.button{
-    width:90px;
-    height:30px;
-    margin-top:10px;
-    margin-left:16px;
-    border:none;
-    background-color:transparent;
-    border:2px solid #00B4D8;
-    border-radius: 20px;
-    color: #00B4D8;
-    font-size: 16px;
-    transition: 0.5s ease-in-out;
-    box-shadow: 0px 0px 5px #00B4D8;
-    
-}
-.writing>.active{
-    box-shadow: 0px 0px 20px #00B4D8;
-    transform: scale(1.1);
-    color:black;
-    background-color: #00B4D8;
-}
-.button:hover{
-    box-shadow: 0px 0px 20px #00B4D8;
-    transform: scale(1.1);
-    color:black;
-    background-color: #00B4D8;
-}
-.heading>h1{
-    margin-top:8rem;
-   font-size:4rem;
-   text-shadow: 0px 0px 5px white;
-}
-.skl{
-   display:flex;
-   flex-wrap: wrap;
-   justify-content: space-around;
-   gap:3rem;
-   width:40rem;
-   margin-top:5rem;
-   margin-left:18rem;
-   margin-bottom:5rem;
-}
-.crd{
-    margin-top:2rem;
-    width:13rem;
-    height:17rem;
-    background-color:transparent;
-    border:2px solid #00B4D8;
-    box-shadow: 0px 0px 5px #00B4D8;
-    
-}
-.crd:hover{
-    background-color: white;
-    box-shadow: 0px 0px 15px #00B4D8;
+    overflow: hidden;
+    overflow-y: scroll;
 }

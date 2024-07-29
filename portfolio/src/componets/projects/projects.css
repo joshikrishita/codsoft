@@ -1,0 +1,93 @@
+:root{
+    --main-bg-color:#213a57;
+    --main-color:#45dfb1;
+    --secondary-bg-color:#80ed99;
+    --secondary-color:#020329;
+
+}
+#projects{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.projectTitle{
+    font-size:3rem;
+    font-weight: 600;
+    padding-top:3rem;
+    margin-bottom: 1.5rem;
+    color:white;
+}
+.projectDescription{
+    font-size:0.9rem;
+    font-weight:600;
+    padding:0 2rem;
+    max-width: 50rem;
+    color:rgb(224, 224, 198);
+
+}
+.projectBoxes{
+    margin:0 auto;
+    width:100vw;
+    max-width:80%;
+   
+    
+}
+.carouselImg{
+     object-fit: cover;
+     margin:1rem auto;
+     object-position: center;
+     height:17rem;
+     width:33rem;
+     border:none;
+     border-radius: 4px;
+}
+.prodes>h2{
+    z-index: 1;
+    color:beige;
+    font-size: 1.7rem;
+    margin-top:0.5rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.prodes>p{
+    width:100%;
+    text-align: center;
+    align-self:center;
+}
+.btn2{
+    background-color: var(--secondary-bg-color);
+    border:none;
+    border-radius: 5rem;
+    width:10rem;
+    height:2rem;
+    color:#020329;
+    margin-top:1rem;
+    box-shadow: 0px 0px 15px #45dfb1;
+   
+}
+
+.carousel{
+    margin-bottom:5rem;
+}
+@media screen and (max-width:780px) {
+    
+    .prodes{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .carouselImg{
+        width:100%;
+    }
+    .slider{
+        width:100%;
+    }
+}

@@ -1,0 +1,17 @@
+:root{
+    --main-bg-color:#213a57;
+    --main-color:#45dfb1;
+    --secondary-bg-color:#80ed99;
+    --secondary-color:#020329;
+
+}
+footer{
+    width:100vw;
+    height:4rem;
+    background-color: #213a57;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: small;
+}

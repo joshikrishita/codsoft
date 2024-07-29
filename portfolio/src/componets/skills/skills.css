@@ -1,0 +1,77 @@
+:root{
+    --main-bg-color:#213a57;
+    --main-color:#45dfb1;
+    --secondary-bg-color:#80ed99;
+    --secondary-color:#020329;
+
+}
+#skills{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.skillTitle{
+     font-size:3rem;
+     font-weight: 600;
+     padding-top:3rem;
+     margin-bottom: 1.5rem;
+     color:white;
+}
+.skillDescription{
+    font-size:0.9rem;
+    font-weight:600;
+    padding:0 2rem;
+    max-width: 50rem;
+    color:rgb(224, 224, 198);
+
+}
+.skillBars{
+    margin:1.5rem;
+    width:100vw;
+    max-width:80%;
+    text-align: left;
+}
+.skillBar{
+    display:flex;
+    align-items: center;
+    margin:1rem;
+    padding:1.5rem 2rem;
+    border-radius: 0.5rem;
+    background-color: var(--main-bg-color);
+}
+.skillImg{
+    object-fit: cover;
+    height: 3rem;
+    width:3rem;
+    margin-right: 2rem;
+}
+.skillTxt>h2{
+    color:wheat;
+}
+.skillTxt p{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+@media screen and (max-width:720px) {
+    .skillTxt>p{
+        font-size: 2vw;
+    }
+}
+@media  screen and (max-width:480px) {
+    .skillTxt>p{
+        font-size: 3vw;
+    }
+    .skillImg{
+        height: 2.25rem;
+        width:2.25rem;
+    }
+    .skillTxt>h2{
+        font-size: 5vw;
+    }
+}
